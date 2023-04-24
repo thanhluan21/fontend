@@ -25,8 +25,6 @@ function Login() {
         { username: username, password: password },
         {
           headers: {
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'GET, PUT, POST, DELETE, OPTIONS',
             'Content-Type': 'application/json'
           }
         }
