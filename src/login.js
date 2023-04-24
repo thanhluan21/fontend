@@ -21,7 +21,7 @@ function Login() {
     event.preventDefault();
     try {
       const response = await axios.post(
-        'https://5lc6fv1o56.execute-api.eu-central-1.amazonaws.com/routing/authenticate/login',
+        'https://cors-anywhere.herokuapp.com/https://5lc6fv1o56.execute-api.eu-central-1.amazonaws.com/routing/authenticate/login',
         { username: username, password: password },
         {
           headers: {
